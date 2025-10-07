@@ -49,6 +49,36 @@ file_list = [
 #     print("All files are unique")
 
 #nested loops
-for x in (1, 2, 3): 
-    for y in (1, 2): 
-        print(x, y)
+# for x in (1, 2, 3): 
+#     for y in (1, 2): 
+#         print(x, y)
+
+# for year in years: 
+#     for month in months: 
+#         for day in days: 
+#             print(year, month, day.csv)
+
+# for table in tables: 
+#     for column in columnns: 
+#         for row in rows: 
+#             print("")
+
+# Select count(*) from table_name where id IS NULL; 
+# data quality check: find all the columns that have null values
+tables = ['users', 'orders', 'products']
+columns = ['id', 'name', 'email']
+for table in tables: 
+    for column in columns: 
+        print(f"Select count(*) from {table} where {column} IS NULL;")
+
+# datalake 
+# for c in containers: 
+#     for b in buckets: 
+#         for f in files: 
+#             print("Do Something")
+
+# while loop
+# initialization = 0
+# condition = True
+# update += 1
+
