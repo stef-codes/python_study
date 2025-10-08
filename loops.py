@@ -65,11 +65,11 @@ file_list = [
 
 # Select count(*) from table_name where id IS NULL; 
 # data quality check: find all the columns that have null values
-tables = ['users', 'orders', 'products']
-columns = ['id', 'name', 'email']
-for table in tables: 
-    for column in columns: 
-        print(f"Select count(*) from {table} where {column} IS NULL;")
+# tables = ['users', 'orders', 'products']
+# columns = ['id', 'name', 'email']
+# for table in tables: 
+#     for column in columns: 
+#         print(f"Select count(*) from {table} where {column} IS NULL;")
 
 # datalake 
 # for c in containers: 
@@ -81,4 +81,21 @@ for table in tables:
 # initialization = 0
 # condition = True
 # update += 1
+
+# while false: 
+# answer = ""
+# while answer != "yes":
+#     answer = input("Are you sure you want to continue? (yes/no): ")
+# print("Thank you for your answer")
+
+#while loop with break (true) -- riskier
+attempts = 0
+while attempts < 3:
+    answer = input("Are you sure you want to continue? (yes/no): ")
+    if answer == "yes":
+        print("glad we're on the same page")
+        break
+    attempts += 1
+else: 
+    print("3 strikes and you're out")
 
