@@ -89,13 +89,19 @@ file_list = [
 # print("Thank you for your answer")
 
 #while loop with break (true) -- riskier
-attempts = 0
-while attempts < 3:
-    answer = input("Are you sure you want to continue? (yes/no): ")
-    if answer == "yes":
-        print("glad we're on the same page")
-        break
-    attempts += 1
-else: 
-    print("3 strikes and you're out")
+# attempts = 0
+# while attempts < 3:
+#     answer = input("Are you sure you want to continue? (yes/no): ")
+#     if answer == "yes":
+#         print("glad we're on the same page")
+#         break
+#     attempts += 1
+# else: 
+#     print("3 strikes and you're out")
+
+nums = [1, 2, 3, 4, 5]
+
+for num in nums:
+    for letter in "abc":
+        print(num, letter)
 
