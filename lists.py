@@ -61,11 +61,11 @@
 #     print("Valid password")
 
 # one line 
-score = 85
-# if score >= 90:
-#     print("A")
-# else: 
-#     print("B")
+# score = 85
+# # if score >= 90:
+# #     print("A")
+# # else: 
+# #     print("B")
 
-grade ="A" if score >= 90 else "B"
-print(grade)
+# grade ="A" if score >= 90 else "B"
+# print(grade)
