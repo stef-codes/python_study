@@ -99,9 +99,21 @@ file_list = [
 # else: 
 #     print("3 strikes and you're out")
 
-nums = [1, 2, 3, 4, 5]
+# nums = [1, 2, 3, 4, 5]
 
-for num in nums:
-    for letter in "abc":
-        print(num, letter)
+# for num in nums:
+#     for letter in "abc":
+#         print(num, letter)
 
+x = 0 
+# while x < 10:
+#     print(x)
+#     x += 1
+# else: 
+#     print("x is now 10")
+
+while True:
+    if x == 5: 
+        break
+    print(x)
+    x += 1
